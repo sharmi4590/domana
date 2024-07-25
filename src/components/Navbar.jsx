@@ -7,6 +7,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const handleSignUpClick = () => {
+    window.location.href = 'https://domain-analyzer-s8fy.onrender.com/'; // Adjust the relative path as needed
+  };
 
   return (
     <nav className="bg-[#C7CCFF] p-4 flex justify-between items-center">
@@ -50,10 +53,10 @@ const Navbar = () => {
           <a href="#home" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>Home</a>
           <a href="#about" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>About</a>
           <a href="#working" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>Working</a>
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu}>
+          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu} onClick={handleSignUpClick}>
             Sign Up
           </button>
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu}>
+          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu} onClick={handleSignUpClick}>
             Login
           </button>
         </div>
