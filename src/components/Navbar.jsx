@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  const handleSignUpClick = () => {
-    window.location.href = 'https://domain-analyzer-s8fy.onrender.com/'; // Adjust the relative path as needed
+
+  const handleNavigation = (path) => {
+    toggleMenu(); // Close the menu
+    navigate(path); // Navigate to the specified route
   };
 
   return (
@@ -33,12 +37,18 @@ const Navbar = () => {
           <a href="#working" className="hover:underline">Working</a>
         </div>
 
-        {/* Simple Buttons */}
+        {/* Buttons */}
         <div className="flex space-x-4 lg:space-x-4">
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-[#6C74CB] text-white">
+          <button
+            className="px-4 py-2 text-xl font-semibold rounded bg-[#6C74CB] text-white"
+            onClick={() => navigate('/signup')}
+          >
             Sign Up
           </button>
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-black">
+          <button
+            className="px-4 py-2 text-xl font-semibold rounded bg-white text-black"
+            onClick={() => navigate('/login')}
+          >
             Login
           </button>
         </div>
@@ -53,10 +63,16 @@ const Navbar = () => {
           <a href="#home" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>Home</a>
           <a href="#about" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>About</a>
           <a href="#working" className="text-white text-2xl font-semibold hover:underline" onClick={toggleMenu}>Working</a>
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu} onClick={handleSignUpClick}>
+          <button
+            className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]"
+            onClick={() => navigate('/signup')}
+          >
             Sign Up
           </button>
-          <button className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]" onClick={toggleMenu} onClick={handleSignUpClick}>
+          <button
+            className="px-4 py-2 text-xl font-semibold rounded bg-white text-[#6C74CB]"
+             onClick={() => navigate('/login')}
+          >
             Login
           </button>
         </div>
