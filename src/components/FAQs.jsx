@@ -10,7 +10,7 @@ const FAQs = () => {
       answer: 'You can return any item within 30 days of purchase for a full refund.'
     },
     {
-      question: How to use it?',
+      question: 'How to use it?',
       answer: 'Yes, we offer international shipping to most countries.'
     },
     {
