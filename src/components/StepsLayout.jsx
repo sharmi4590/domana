@@ -25,9 +25,8 @@ const StepsLayout = () => {
           </div>
           <div className='col-span-4 flex justify-center items-center'>
             <div className='rounded-md p-4 max-w-xs'>
-              <h1 className='font-medium py-2'>Domain Name</h1>
-              <p className='text-[12px] md:text-[16px]'>
-               Input Domain Name:
+              <h1 className='font-medium py-2'>Input Domain Name:</h1>
+              <p className='text-[15px] md:text-[16px]'>
                 Enter the domain name you want to analyze into the tool's interface.
               </p>
             </div>
@@ -36,9 +35,8 @@ const StepsLayout = () => {
           {/* Step 2 */}
           <div className='col-span-4 flex justify-center items-center'>
             <div className='rounded-md p-4 max-w-xs'>
-              <h1 className='font-medium py-2'>Domain Name</h1>
-              <p className='text-[12px] md:text-[16px]'>
-                Generate Report:
+              <h1 className='font-medium py-2'>Generate Report:</h1>
+              <p className='text-[15px] md:text-[16px]'>
 - Click on the "Generate Report" button to initiate the analysis.
 - The tool will automatically analyze backlinks, extract social media stats, categorize the domain, and capture website screenshots.
 
@@ -69,9 +67,8 @@ const StepsLayout = () => {
           </div>
           <div className='col-span-4 flex justify-center items-center'>
             <div className='rounded-md p-4 max-w-xs'>
-              <h1 className='font-medium py-2'>Domain Name</h1>
-              <p className='text-[12px] md:text-[16px]'>
-                Download PDF:
+              <h1 className='font-medium py-2'> Download PDF:</h1>
+              <p className='text-[15px] md:text-[16px]'>
 Once the analysis is complete, download the generated PDF report that includes detailed insights on backlinks, social media presence, domain categories, traffic, revenue, keywords, Open Graph data, and live website screenshots.
               </p>
             </div>
