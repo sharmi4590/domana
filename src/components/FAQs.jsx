@@ -6,19 +6,19 @@ const FAQs = () => {
 
   const questions = [
     {
-      question: 'What is your return policy?',
+      question: 'What does Domain Analyzer do?',
       answer: 'You can return any item within 30 days of purchase for a full refund.'
     },
     {
-      question: 'Do you offer international shipping?',
+      question: How to use it?',
       answer: 'Yes, we offer international shipping to most countries.'
     },
     {
-      question: 'How can I track my order?',
+      question: 'What does the pdf of analysis has?',
       answer: 'Once your order is shipped, you will receive a tracking number via email.'
     },
     {
-      question: 'What payment methods do you accept?',
+      question: 'What are the steps to download the pdf?',
       answer: 'We accept all major credit cards, PayPal, and Apple Pay.'
     }
   ];
