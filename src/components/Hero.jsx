@@ -15,7 +15,7 @@ const HeroSection = () => {
             <span className="text-black">Domain</span>
             <span className="text-[#6C74CB]">Analyzer</span>
           </h1>
-          <p className="mb-6 text-lg md:text-2xl">This is a sample text about DomainAnalyzer. It provides insightful data and analysis on various domains to help you make informed decisions.</p>
+          <p className="mb-6 text-lg md:text-2xl"> DomainAnalyzer provides insightful data and analysis on various domains to help you make informed decisions.</p>
           <button className="flex items-center justify-center lg:justify-start px-6 py-3 bg-[#6C74CB] text-white font-semibold rounded text-lg md:text-2xl">
             Know More<GoArrowUpRight className="ml-2" />
           </button>
