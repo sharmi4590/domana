@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="space-x-10 text-xl font-semibold text-black py-1 lg:py-0 lg:flex lg:space-x-4">
           <a href="#home" className="hover:underline">Home</a>
           <a href="#about" className="hover:underline">About</a>
-          <a href="#working" className="hover:underline">Working</a>
+          <a href="https://domain-analyzer-s8fy.onrender.com/" className="hover:underline">Working</a>
         </div>
 
         {/* Buttons */}
