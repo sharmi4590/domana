@@ -15,7 +15,13 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="text-lg md:text-2xl">
-          Domain names serve to identify Internet resources, such as computers, networks, and services, with a text-based label that is easier to memorize than the numerical addresses used in the Internet protocols. A domain name may represent entire collections of such resources or individual instances. Individual Internet host computers use domain names as host identifiers.
+          A tool for generating PDF reports on domain data, including backlinks, social media presence, domain categories, and website screenshots. 
+          Key Features:
+- Analyzes backlinks, providing metrics and costs.
+- Extracts social media stats with links and follower counts.
+- Provides domain categorization, traffic, revenue, & keyword insights.
+- Integrates Open Graph data for social media enhancement.
+- Captures and includes live website screenshots in reports.
         </p>
       </div>
     </div>
