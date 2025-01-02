@@ -27,7 +27,8 @@ const StepsLayout = () => {
             <div className='rounded-md p-4 max-w-xs'>
               <h1 className='font-medium py-2'>Domain Name</h1>
               <p className='text-[12px] md:text-[16px]'>
-                Domain names serve to identify Internet resources, such as computers, networks, and services, with a text-based label that is easier to memorize than the numerical addresses used in the Internet protocols. A domain name may represent entire collections of such resources or individual instances.
+               Input Domain Name:
+                Enter the domain name you want to analyze into the tool's interface.
               </p>
             </div>
           </div>
@@ -37,7 +38,10 @@ const StepsLayout = () => {
             <div className='rounded-md p-4 max-w-xs'>
               <h1 className='font-medium py-2'>Domain Name</h1>
               <p className='text-[12px] md:text-[16px]'>
-                Domain names serve to identify Internet resources, such as computers, networks, and services, with a text-based label that is easier to memorize than the numerical addresses used in the Internet protocols. A domain name may represent entire collections of such resources or individual instances.
+                Generate Report:
+- Click on the "Generate Report" button to initiate the analysis.
+- The tool will automatically analyze backlinks, extract social media stats, categorize the domain, and capture website screenshots.
+
               </p>
             </div>
           </div>
@@ -67,7 +71,8 @@ const StepsLayout = () => {
             <div className='rounded-md p-4 max-w-xs'>
               <h1 className='font-medium py-2'>Domain Name</h1>
               <p className='text-[12px] md:text-[16px]'>
-                Domain names serve to identify Internet resources, such as computers, networks, and services, with a text-based label that is easier to memorize than the numerical addresses used in the Internet protocols. A domain name may represent entire collections of such resources or individual instances.
+                Download PDF:
+Once the analysis is complete, download the generated PDF report that includes detailed insights on backlinks, social media presence, domain categories, traffic, revenue, keywords, Open Graph data, and live website screenshots.
               </p>
             </div>
           </div>
